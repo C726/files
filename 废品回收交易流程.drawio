@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T01:29:37.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.7" etag="Cobja0Xzw05TW741gJxm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T14:32:32.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="WhnfuiLNtGeOLLJnaTyC" version="22.1.8" type="github">
   <diagram name="第 1 页" id="CF-PHP-_ADE3G4CUEVN1">
-    <mxGraphModel>
+    <mxGraphModel dx="1659" dy="1211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-1" target="vYHQaVVt0XGG7_JniSFY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-1" value="User Click Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-2" target="vYHQaVVt0XGG7_JniSFY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-2" value="To:&amp;nbsp;/recycle/create" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-4" target="vYHQaVVt0XGG7_JniSFY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-4" value="To:&amp;nbsp;/recycle/create" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-6" target="vYHQaVVt0XGG7_JniSFY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-6" value="$this-&amp;gt;user()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-8" value="Create file lock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-9" target="vYHQaVVt0XGG7_JniSFY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="450" />
+              <mxPoint x="80" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-9" target="vYHQaVVt0XGG7_JniSFY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-9" value="Locked" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-14" target="vYHQaVVt0XGG7_JniSFY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-14" value="Create file lock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-21" target="vYHQaVVt0XGG7_JniSFY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="650" />
+              <mxPoint x="80" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-21" value="Order Reply" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-26" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-27" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-28" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="690" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-31" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="630" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-32" target="vYHQaVVt0XGG7_JniSFY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="770" />
+              <mxPoint x="80" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-32" target="vYHQaVVt0XGG7_JniSFY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-32" value="Has Order&lt;br&gt;Can&#39;t done" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-34" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="740" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-35" target="vYHQaVVt0XGG7_JniSFY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-35" value="CommonService::&lt;br&gt;instalce()&lt;br&gt;-&amp;gt;getUserAddress(&lt;br&gt;$uid&lt;br&gt;$address_id&lt;br&gt;)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-37" value="&lt;h1&gt;getUserAddress&lt;/h1&gt;&lt;p&gt;If can&#39;t get address, Throw error:&lt;/p&gt;&lt;p&gt;找不到地址信息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="825" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-38" value="Has Order&lt;br&gt;Can&#39;t done" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vYHQaVVt0XGG7_JniSFY-39" target="vYHQaVVt0XGG7_JniSFY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-39" value="System&lt;br&gt;fance is open" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHQaVVt0XGG7_JniSFY-41" value="Find alliance&lt;br&gt;with address" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1090" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
