@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T15:34:39.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="0QjvB2iH8a7wdg2zqphA" version="22.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-15T00:29:41.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="rQ9DEKadJlJXoBQ7JY-U" version="22.1.8" type="github" pages="2">
   <diagram name="订单创建流程" id="CF-PHP-_ADE3G4CUEVN1">
     <mxGraphModel dx="2326" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -763,7 +763,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kr-k5oFg_C3MYn8O0q1Q" name="完成订单回收">
-    <mxGraphModel dx="2326" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1184,9 +1184,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-10" y="1149" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="-20" y="1159" />
               <mxPoint x="-20" y="1160" />
-              <mxPoint x="-800" y="1160" />
-              <mxPoint x="-800" y="40" />
+              <mxPoint x="-810" y="1160" />
+              <mxPoint x="-810" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
